@@ -1,0 +1,68 @@
+.banda {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .banda td, .banda th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+ .banda tr:nth-child(even){background-color: #f2f2f2;}
+  
+ .banda tr:hover {background-color: #ddd;}
+  
+ .banda th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #333;
+    color: white;
+  }
+
+  .div_title{
+    text-align: center;
+  }
+
+.div_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_search_movie {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form_search_movie label{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.form_search_movie input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    outline: none;
+}
+
+.form_search_movie button {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.letras{
+    text-align: center;
+    margin: 20px;
+}
+
+.letras a{
+    text-decoration: none;
+}
